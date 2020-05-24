@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es2020",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "experimentalDecorators": true,
+    "plugins": [
+      {
+        "name": "typescript-deno-plugin",
+        "enable": true
+      }
+    ]
+  },
+  "exclude": ["node_modules", "test/**/*.ts"]
+}
